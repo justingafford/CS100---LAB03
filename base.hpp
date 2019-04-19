@@ -5,8 +5,13 @@
 
 class Base {
     public:
+	Base* left;
+	Base* right;
         /* Constructors */
-        Base() { };
+        Base() {
+	    left = 0;
+	    right = 0;
+        };
 
         /* Pure Virtual Functions */
         virtual double evaluate() = 0;
