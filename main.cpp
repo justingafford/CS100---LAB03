@@ -47,8 +47,8 @@ int main() {
 	Op* num8 = new Op(2);
 
 	Add* op6 = new Add(num5,num6);
-	Mult* op7 = new Mult(op6, 4);
-	Div* answer = new Div(op7, 2);
+	Mult* op7 = new Mult(op6, num7);
+	Div* answer = new Div(op7, num8);
 	cout << "evaluates to " << answer->evaluate() << endl;
 	return 0;
 }
