@@ -12,10 +12,10 @@
 using namespace std;
 
 int main() { 
-	Op* num1 = new Op(7)
-	Op* num2 = new Op(6)
-	Op* num3 = new Op(2)
-	Op* num4 = new Op(9)
+	Op* num1 = new Op(7);
+	Op* num2 = new Op(6);
+	Op* num3 = new Op(2);
+	Op* num4 = new Op(9);
 
 	Mult* op1 = new Mult(num1,num2);
 	cout << "Seven times six is: " << op1 -> evaluate() << endl;

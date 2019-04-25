@@ -1,6 +1,6 @@
 #ifndef DIV_HPP
 #define DIV_HPP
-#include "base.cpp"
+#include "base.hpp"
 class Div: public Base
 {
   private:

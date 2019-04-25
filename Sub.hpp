@@ -1,6 +1,6 @@
 #ifndef SUB_HPP
 #define SUB_HPP
-#include "base.cpp"
+#include "base.hpp"
 class Sub: public Base
 {
   private:
