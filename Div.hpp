@@ -1,11 +1,15 @@
-#include "base.hpp"
-
-class Div: public Base {
+#ifndef DIV_HPP
+#define DIV_HPP
+#include "base.cpp"
+class Div: public Base
+{
+  private:
+	Base* L1;
+	Base* L2;
   public:
-	Div { };
-	string Div (Base* L1, Base* L2) {
-		Base();
-		left = L1;
-		right = L2;
-		return (L1 -> data) / (L2 -> data);
+	Div(Base*, Base*);
+	double evaluate();
+	string stringify();
 };
+#endif
+
