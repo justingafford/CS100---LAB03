@@ -20,13 +20,13 @@ int main() {
 	Mult* op1 = new Mult(num1,num2);
 	cout << "Seven times six is: " << op1 -> evaluate() << endl;
 
-	Div* op2 = new Div(num 2,num3);
+	Div* op2 = new Div(num2,num3);
 	cout << "Six divided by two is: " << op2 -> evaluate() << endl;
 
 	Add* op3 = new Add(num3,num4);
 	cout << "Two plus nine is:  " << op3 -> evaluate() << endl;
 
-	Sub* op4  = new Sub(num 1, num3);
+	Sub* op4  = new Sub(num1, num3);
 	cout << "Seven minus two is: " << op4 -> evaluate() << endl;
 
 	Pow* op5 = new Pow(num4, num3);
