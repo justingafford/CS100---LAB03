@@ -1,6 +1,8 @@
 #ifndef ADD_HPP
 #define ADD_HPP
 #include "base.hpp"
+#include <string>
+using namespace std;
 class Add: public Base
 {
   private:

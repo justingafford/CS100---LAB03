@@ -1,6 +1,8 @@
 #ifndef POW_HPP
 #define POW_HPP
 #include "base.hpp"
+#include <string>
+using namespace std;
 class Pow: public Base
 {
  private:

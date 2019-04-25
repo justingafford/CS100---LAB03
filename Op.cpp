@@ -1,13 +1,17 @@
-#include "op.hpp"
+#include "Op.hpp"
 #include <string>
 using namespace std;
-class Op () : public Base
-{
 
-    public:
-        Op() {num = 0; };
-        Op(double  n) {num = n;}
-        double evaluate() {return num;}
-        string stringify() {return to_string(num);}
-};
+	Op::Op () {
+		num = 0;
+	}
+        Op::Op(double  n) {
+		num = n;
+	}
+        double Op::evaluate() {
+		return num;
+	}
+        string Op::stringify() {
+		return to_string(num);
+	}
 

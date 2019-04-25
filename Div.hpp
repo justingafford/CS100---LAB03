@@ -1,6 +1,8 @@
 #ifndef DIV_HPP
 #define DIV_HPP
 #include "base.hpp"
+#include <string>
+using namespace std;
 class Div: public Base
 {
   private:

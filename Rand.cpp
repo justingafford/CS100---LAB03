@@ -1,13 +1,10 @@
-#include "rand.hpp"
+#include "Rand.hpp"
 #include <string>
+#include <ctime>
 using namespace std;
 
-class Rand () : public Base
-{
-    
-    public:
-        Rand() {num = rand() % 100;};
-        double evaluate() {return num;}
-        string stringify() {return to_string(num);}
-};
+
+        Rand::Rand() {num = rand() % 100;};
+        double Rand::evaluate() {return num;}
+        string Rand::stringify() {return to_string(num);}
 

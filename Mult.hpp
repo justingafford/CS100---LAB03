@@ -1,6 +1,7 @@
 #ifndef MULT_HPP
 #define MULT_HPP
 #include "base.hpp"
+using namespace std;
 class Mult : public Base
 {
  private:
