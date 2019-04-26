@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/jgaff001/lab-03-composite-pattern-lab_003/base.hpp
+string
+-
+
+/home/csmajs/jgaff001/lab-03-composite-pattern-lab_003/main.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+base.hpp
+/home/csmajs/jgaff001/lab-03-composite-pattern-lab_003/base.hpp
+iostream
+-
+
